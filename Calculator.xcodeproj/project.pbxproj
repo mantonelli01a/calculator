@@ -10,10 +10,10 @@
 		8492578121A94E5A00BEA6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492578021A94E5A00BEA6A9 /* AppDelegate.swift */; };
 		8492578321A94E5A00BEA6A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492578221A94E5A00BEA6A9 /* ViewController.swift */; };
 		8492578621A94E5A00BEA6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492578421A94E5A00BEA6A9 /* Main.storyboard */; };
-		8492578921A94E5A00BEA6A9 /* Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8492578721A94E5A00BEA6A9 /* Calculator.xcdatamodeld */; };
 		8492578B21A94E5B00BEA6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492578A21A94E5B00BEA6A9 /* Assets.xcassets */; };
 		8492578E21A94E5B00BEA6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492578C21A94E5B00BEA6A9 /* LaunchScreen.storyboard */; };
 		8492579721A954FC00BEA6A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8492579621A954FC00BEA6A9 /* Default-568h@2x.png */; };
+		8492579921A9944800BEA6A9 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492579821A9944800BEA6A9 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		8492578021A94E5A00BEA6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8492578221A94E5A00BEA6A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8492578521A94E5A00BEA6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8492578821A94E5A00BEA6A9 /* Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calculator.xcdatamodel; sourceTree = "<group>"; };
 		8492578A21A94E5B00BEA6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8492578D21A94E5B00BEA6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8492578F21A94E5B00BEA6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8492579621A954FC00BEA6A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8492579821A9944800BEA6A9 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,10 @@
 		8492577F21A94E5A00BEA6A9 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8492579821A9944800BEA6A9 /* CalculatorBrain.swift */,
 				8492578221A94E5A00BEA6A9 /* ViewController.swift */,
 				8492578421A94E5A00BEA6A9 /* Main.storyboard */,
 				8492579521A94F1B00BEA6A9 /* supporting files */,
-				8492578721A94E5A00BEA6A9 /* Calculator.xcdatamodeld */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -150,9 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8492579921A9944800BEA6A9 /* CalculatorBrain.swift in Sources */,
 				8492578321A94E5A00BEA6A9 /* ViewController.swift in Sources */,
 				8492578121A94E5A00BEA6A9 /* AppDelegate.swift in Sources */,
-				8492578921A94E5A00BEA6A9 /* Calculator.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,19 +352,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8492578721A94E5A00BEA6A9 /* Calculator.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8492578821A94E5A00BEA6A9 /* Calculator.xcdatamodel */,
-			);
-			currentVersion = 8492578821A94E5A00BEA6A9 /* Calculator.xcdatamodel */;
-			path = Calculator.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 8492577521A94E5A00BEA6A9 /* Project object */;
 }
